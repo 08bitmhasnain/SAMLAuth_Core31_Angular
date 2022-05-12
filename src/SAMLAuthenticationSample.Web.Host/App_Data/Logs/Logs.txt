@@ -1,0 +1,309 @@
+DEBUG 2022-05-12 01:28:15,594 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-05-12 01:28:16,814 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-05-12 01:28:16,850 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.Web.Host.Startup.SAMLAuthenticationSampleWebHostModule, SAMLAuthenticationSample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.SAMLAuthenticationSampleWebCoreModule, SAMLAuthenticationSample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.SAMLAuthenticationSampleApplicationModule, SAMLAuthenticationSample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.SAMLAuthenticationSampleCoreModule, SAMLAuthenticationSample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.EntityFrameworkCore.SAMLAuthenticationSampleEntityFrameworkModule, SAMLAuthenticationSample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:16,870 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-05-12 01:28:17,595 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 01:28:17,596 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 01:28:17,596 [1    ] o.Configuration.LanguageManagementConfig - Converted SAMLAuthenticationSample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 01:28:17,596 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 01:28:19,245 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SAMLAuthenticationSample.EntityFrameworkCore.SAMLAuthenticationSampleDbContext, SAMLAuthenticationSample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 01:28:21,770 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-05-12 01:28:21,873 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-05-12 01:28:21,894 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-05-12 01:28:21,910 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SAMLAuthenticationSample
+DEBUG 2022-05-12 01:28:21,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-05-12 01:28:22,515 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-05-12 01:28:22,889 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SAMLAuthenticationSample.MultiTenancy.Tenant, SAMLAuthenticationSample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SAMLAuthenticationSample.Authorization.Users.User, SAMLAuthenticationSample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2022-05-12 01:28:23,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2022-05-12 01:28:23,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-05-12 01:28:23,068 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Users.Dto.CreateUserDto
+DEBUG 2022-05-12 01:28:23,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Users.Dto.UserDto
+DEBUG 2022-05-12 01:28:23,070 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-05-12 01:28:23,070 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-05-12 01:28:23,070 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Roles.Dto.PermissionDto
+DEBUG 2022-05-12 01:28:23,070 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-05-12 01:28:23,070 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.MultiTenancy.Dto.TenantDto
+WARN  2022-05-12 01:28:42,809 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Context()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobs(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobs.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass26_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation, Func`2 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide, String name)
+   at Abp.EntityFrameworkCore.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Context()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<GetQueryable>b__7_0(Type key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetQueryable()
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors)
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAll()
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobs(Int32 maxResultCount)
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs_callback(Int32 maxResultCount)
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobs.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2022-05-12 23:37:17,977 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-05-12 23:37:18,935 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2022-05-12 23:37:18,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.Web.Host.Startup.SAMLAuthenticationSampleWebHostModule, SAMLAuthenticationSample.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:18,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.SAMLAuthenticationSampleWebCoreModule, SAMLAuthenticationSample.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:18,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.SAMLAuthenticationSampleApplicationModule, SAMLAuthenticationSample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,000 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.SAMLAuthenticationSampleCoreModule, SAMLAuthenticationSample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,000 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SAMLAuthenticationSample.EntityFrameworkCore.SAMLAuthenticationSampleEntityFrameworkModule, SAMLAuthenticationSample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:19,012 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2022-05-12 23:37:19,632 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 23:37:19,633 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 23:37:19,633 [1    ] o.Configuration.LanguageManagementConfig - Converted SAMLAuthenticationSample (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 23:37:19,633 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2022-05-12 23:37:21,181 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SAMLAuthenticationSample.EntityFrameworkCore.SAMLAuthenticationSampleDbContext, SAMLAuthenticationSample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-05-12 23:37:23,435 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2022-05-12 23:37:23,515 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-05-12 23:37:23,534 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2022-05-12 23:37:23,549 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SAMLAuthenticationSample
+DEBUG 2022-05-12 23:37:23,561 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-05-12 23:37:24,089 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-05-12 23:37:24,414 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[SAMLAuthenticationSample.MultiTenancy.Tenant, SAMLAuthenticationSample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SAMLAuthenticationSample.Authorization.Users.User, SAMLAuthenticationSample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2022-05-12 23:37:24,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2022-05-12 23:37:24,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2022-05-12 23:37:24,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Users.Dto.CreateUserDto
+DEBUG 2022-05-12 23:37:24,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Users.Dto.UserDto
+DEBUG 2022-05-12 23:37:24,577 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2022-05-12 23:37:24,577 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Sessions.Dto.UserLoginInfoDto
+DEBUG 2022-05-12 23:37:24,577 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.Roles.Dto.PermissionDto
+DEBUG 2022-05-12 23:37:24,577 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2022-05-12 23:37:24,578 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SAMLAuthenticationSample.MultiTenancy.Dto.TenantDto
+INFO  2022-05-12 23:37:33,718 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2022-05-12 23:37:35,250 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-05-12 23:37:35,443 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2022-05-12 23:37:36,020 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SAMLAuthenticationSample.Web.Host.Controllers.HomeController.Index (SAMLAuthenticationSample.Web.Host)'
+INFO  2022-05-12 23:37:43,941 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SAMLAuthenticationSample.Web.Host.Controllers.HomeController (SAMLAuthenticationSample.Web.Host).
+INFO  2022-05-12 23:37:46,905 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-05-12 23:37:46,921 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action SAMLAuthenticationSample.Web.Host.Controllers.HomeController.Index (SAMLAuthenticationSample.Web.Host) in 2966.8787ms
+INFO  2022-05-12 23:37:46,925 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SAMLAuthenticationSample.Web.Host.Controllers.HomeController.Index (SAMLAuthenticationSample.Web.Host)'
+INFO  2022-05-12 23:37:46,995 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11551.0889ms 302 
+INFO  2022-05-12 23:37:46,999 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2022-05-12 23:37:47,142 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 133.7397ms 301 
+INFO  2022-05-12 23:37:47,149 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-05-12 23:37:47,784 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 631.6119ms 200 text/html;charset=utf-8
+INFO  2022-05-12 23:37:47,792 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2022-05-12 23:37:47,795 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2022-05-12 23:37:47,802 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2022-05-12 23:37:47,804 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2022-05-12 23:37:47,868 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2022-05-12 23:37:47,871 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-05-12 23:37:47,908 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.9042ms 200 application/javascript; charset=utf-8
+INFO  2022-05-12 23:37:47,921 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2022-05-12 23:37:47,921 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2022-05-12 23:37:47,927 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.4634ms 200 application/javascript
+INFO  2022-05-12 23:37:47,930 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 137.3537ms 200 application/javascript
+INFO  2022-05-12 23:37:47,943 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-05-12 23:37:47,946 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-05-12 23:37:47,952 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 152.6498ms 200 text/css
+INFO  2022-05-12 23:37:47,956 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 156.7062ms 200 application/javascript
+INFO  2022-05-12 23:37:47,974 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-05-12 23:37:47,981 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 185.8361ms 200 application/javascript
+INFO  2022-05-12 23:37:58,900 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-05-12 23:37:58,908 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController.SetCookie (SAMLAuthenticationSample.Web.Host)'
+INFO  2022-05-12 23:37:58,926 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController (SAMLAuthenticationSample.Web.Host).
+INFO  2022-05-12 23:37:58,976 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-05-12 23:37:58,995 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-05-12 23:37:59,184 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2022-05-12 23:37:59,328 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-05-12 23:37:59,368 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 248.5565ms 200 image/png
+INFO  2022-05-12 23:37:59,802 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 813.3769ms 200 application/json;charset=utf-8
+INFO  2022-05-12 23:37:59,815 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController.SetCookie (SAMLAuthenticationSample.Web.Host) in 879.8105ms
+INFO  2022-05-12 23:37:59,819 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController.SetCookie (SAMLAuthenticationSample.Web.Host)'
+INFO  2022-05-12 23:37:59,826 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 922.8198ms 200 application/json; charset=utf-8
+INFO  2022-05-12 23:41:18,557 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 75
+INFO  2022-05-12 23:41:18,567 [21   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-05-12 23:41:18,571 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-05-12 23:41:18,586 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:41:18,615 [21   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[SAMLAuthenticationSample.Models.TokenAuth.AuthenticateResultModel] Authenticate(SAMLAuthenticationSample.Models.TokenAuth.AuthenticateModel) on controller SAMLAuthenticationSample.Controllers.TokenAuthController (SAMLAuthenticationSample.Web.Core).
+WARN  2022-05-12 23:41:19,680 [23   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2022-05-12 23:41:21,308 [25   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at SAMLAuthenticationSample.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2022-05-12 23:41:21,321 [25   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-05-12 23:41:21,334 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core) in 2715.4043ms
+INFO  2022-05-12 23:41:21,339 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:41:21,344 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2788.558ms 500 application/json; charset=utf-8
+INFO  2022-05-12 23:41:39,360 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 75
+INFO  2022-05-12 23:41:39,367 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-05-12 23:41:39,370 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-05-12 23:41:39,377 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:41:39,393 [24   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[SAMLAuthenticationSample.Models.TokenAuth.AuthenticateResultModel] Authenticate(SAMLAuthenticationSample.Models.TokenAuth.AuthenticateModel) on controller SAMLAuthenticationSample.Controllers.TokenAuthController (SAMLAuthenticationSample.Web.Core).
+WARN  2022-05-12 23:41:39,423 [21   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2022-05-12 23:41:39,777 [24   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at SAMLAuthenticationSample.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2022-05-12 23:41:39,781 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-05-12 23:41:39,786 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core) in 388.7241ms
+INFO  2022-05-12 23:41:39,789 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:41:39,794 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 432.4924ms 500 application/json; charset=utf-8
+INFO  2022-05-12 23:41:51,892 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 71
+INFO  2022-05-12 23:41:51,898 [22   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-05-12 23:41:51,901 [22   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-05-12 23:41:51,907 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:41:51,915 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[SAMLAuthenticationSample.Models.TokenAuth.AuthenticateResultModel] Authenticate(SAMLAuthenticationSample.Models.TokenAuth.AuthenticateModel) on controller SAMLAuthenticationSample.Controllers.TokenAuthController (SAMLAuthenticationSample.Web.Core).
+WARN  2022-05-12 23:41:51,959 [24   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2022-05-12 23:41:52,410 [28   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at SAMLAuthenticationSample.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in D:\Porjects\BoilerPlate\5.8.1\aspnet-core\src\SAMLAuthenticationSample.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2022-05-12 23:41:52,415 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-05-12 23:41:52,421 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core) in 500.8367ms
+INFO  2022-05-12 23:41:52,425 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:41:52,428 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 559.3711ms 500 application/json; charset=utf-8
+INFO  2022-05-12 23:42:41,534 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 76
+INFO  2022-05-12 23:42:41,539 [27   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2022-05-12 23:42:41,544 [27   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2022-05-12 23:42:41,549 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:42:41,566 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[SAMLAuthenticationSample.Models.TokenAuth.AuthenticateResultModel] Authenticate(SAMLAuthenticationSample.Models.TokenAuth.AuthenticateModel) on controller SAMLAuthenticationSample.Controllers.TokenAuthController (SAMLAuthenticationSample.Web.Core).
+INFO  2022-05-12 23:42:42,360 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-05-12 23:42:42,371 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core) in 799.9494ms
+INFO  2022-05-12 23:42:42,397 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SAMLAuthenticationSample.Controllers.TokenAuthController.Authenticate (SAMLAuthenticationSample.Web.Core)'
+INFO  2022-05-12 23:42:42,405 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 867.5848ms 200 application/json; charset=utf-8
+INFO  2022-05-12 23:42:42,420 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2022-05-12 23:42:42,475 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.2129ms 200 text/html;charset=utf-8
+INFO  2022-05-12 23:42:42,501 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-05-12 23:42:42,551 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.0941ms 200 application/javascript; charset=utf-8
+INFO  2022-05-12 23:42:42,913 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2022-05-12 23:42:43,121 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2022-05-12 23:42:43,203 [23   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-05-12 23:42:43,213 [28   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2022-05-12 23:42:43,363 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController.SetCookie (SAMLAuthenticationSample.Web.Host)'
+INFO  2022-05-12 23:42:43,384 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController (SAMLAuthenticationSample.Web.Host).
+INFO  2022-05-12 23:42:43,421 [23   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-05-12 23:42:43,428 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 416.9648ms 200 application/json;charset=utf-8
+INFO  2022-05-12 23:42:43,443 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController.SetCookie (SAMLAuthenticationSample.Web.Host) in 44.451ms
+INFO  2022-05-12 23:42:43,450 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'SAMLAuthenticationSample.Web.Host.Controllers.AntiForgeryController.SetCookie (SAMLAuthenticationSample.Web.Host)'
+INFO  2022-05-12 23:42:43,455 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 542.2716ms 200 application/json; charset=utf-8
